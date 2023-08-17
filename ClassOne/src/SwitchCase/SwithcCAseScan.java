@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SwithcCAseScan {
     public static void main(String[] arg){
+        System.out.println("Insert a value between 1 to 12 :");
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
         switch (month) {
@@ -44,14 +45,15 @@ public class SwithcCAseScan {
                 System.out.println("The Actual month is : December");
                 break;
 
-            default:
-                System.out.println("Please insert a correct value between 1 to 12 ");
-                break;
+                default:
+                    System.out.println("Please insert a correct value between 1 to 12 ");
+                    break;
 
-        }
-        System.out.println("Out of the bloc switch case ");
+            }
+            System.out.println("Out of the bloc switch case ");
+
+
 
 
     }
-
 }
