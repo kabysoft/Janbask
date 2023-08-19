@@ -2,7 +2,7 @@ package SwitchCase;
 
 public class SwithcCAse {
     public static void main(String[] arg){
-        int month = 22;
+        int month = 2;
         switch (month) {
             case(1):
                 System.out.println("The Actual month is : January");
